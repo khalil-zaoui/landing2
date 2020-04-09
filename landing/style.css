@@ -1,0 +1,272 @@
+body {
+  background-color: rgb(0,0,0);
+  color: rgb(255,255,255);
+  overflow-x: hidden;
+
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("hulu.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background-image: url("hulu.jpg");
+  }
+}
+
+.navbar-light .navbar-brand {
+  background-image: url("SOlogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+  width: 130px;
+  height: 30px;
+}
+
+#navcol-1 {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222;
+  padding: 10px;
+}
+
+#title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+#subtitle {
+  font-family: Montserrat, sans-serif;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+#hero-bottom {
+  color: #fff;
+  text-align: center;
+}
+
+.p-top {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.p-bot {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.reserve-button:hover, .reserve-button:focus, .reserve-button:active {
+  background-color: rgba(0,98,204,0) !important;
+  border: 3px solid #fff !important;
+  box-shadow: none !important;
+}
+
+.reserve-button {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #fff;
+  border-radius: 30px;
+}
+
+.btn.btn-link.btn-block.arrow-button {
+  color: rgb(255,255,255);
+  font-size: 32px;
+}
+
+#hero-bottom .container {
+  max-width: 700px;
+  text-align: center;
+}
+
+.col.with-borders {
+  border: 1px solid rgba(255,255,255,0.2);
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#video-text {
+  text-align: center;
+}
+
+#video-text iframe {
+  width: 90%;
+  height: 400px;
+}
+
+@media (min-width: 992px) {
+  #video-text iframe {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+#stats {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  #stats {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    font-size: 15px;
+  }
+}
+
+#stats .table thead th {
+  text-align: center;
+  padding-left: 0;
+  border-top: 0;
+}
+
+#stats .cell-left {
+  text-align: center;
+  padding-left: 0;
+}
+
+#stats .cell-right {
+  text-align: center;
+  font-weight: bold;
+  padding-right: 0;
+}
+
+
+
+.so-music {
+  height: 550px;
+  padding-top: 40px;
+  margin: 0 0 10px 10px;
+  text-align: center;
+}
+
+#table-2 {
+  font-size: 22px;
+  text-align: center;
+  padding-top: 144px;
+  color: #ffffff;
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+#video-text-1 {
+  text-align: center;
+}
+
+#video-text-1 iframe {
+  width: 900px;
+  height: 500px;
+}
+
+p {
+  text-align: left;
+}
+
+.h3, h3 {
+  text-align: left;
+}
+
+#paragraph-intro {
+  text-align: center;
+}
+
+.p-bot {
+  text-align: center;
+}
+
+.table thead th {
+  border-top: 0px;
+}
+
+.img-logo-music {
+  margin-top: 400px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#btn-hero {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0,0,0,.5);
+  border-color: rgba(0,0,0,.1);
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container-plan {
+  width: 500px;
+  margin: 80px auto;
+}
+
+.container-plan h2 {
+  text-align: center;
+}
+
+
+.card {
+  padding: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 6px;
+  margin: 40px;
+  flex-basis: 280px;
+  flex-grow: 1;
+}
+
+.btn-green {
+  background-color: #2ecc71;
+  display: block;
+  text-align: center;
+  margin: auto;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-green:hover {
+  background-position: right;
+  transition: 6s;
+  background-image: linear-gradient(to left,#2ecc71, #3EB489
+
+  , #2ecc71    );
+}
